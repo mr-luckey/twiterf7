@@ -40,6 +40,7 @@ dependencies:
   cupertino_icons: ^1.0.2
   day_schedule_list: ^0.4.4
   intl: ^0.17.0
+  just_audio: ^0.9.27
   date_time_picker: ^2.1.0
 
 dev_dependencies:

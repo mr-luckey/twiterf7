@@ -2,6 +2,7 @@ import 'package:date_time_picker/date_time_picker.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:intl/intl.dart';
+import 'package:twiterf7/video%20call.dart';
 
 // void main() => runApp(MyApp());
 
@@ -184,6 +185,7 @@ class _MyHomePageState extends State<MyHomePage> {
 
                   if (loForm?.validate() == true) {
                     loForm?.save();
+                    Navigator.push(context, MaterialPageRoute(builder: (context)=>MyApp()));
                   }
                 },
                 child: Text('Submit'),
